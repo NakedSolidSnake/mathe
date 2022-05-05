@@ -6,7 +6,7 @@ $(TARGET): mathe.o
 	ar rcs -o $(TARGET) mathe.o
 
 mathe.o: mathe.c 
-	gcc -I. -c mathe.c -o mathe.o -lm
+	gcc -I. -c mathe.c -o mathe.o
 
 clean:
 	rm -rf *.a *.o

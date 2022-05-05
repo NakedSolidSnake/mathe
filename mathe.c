@@ -10,3 +10,8 @@ int mathe_sub (int a, int b)
 {
     return a - b;
 }
+
+int mathe_mult (int a, int b)
+{
+    return a * b;
+}
